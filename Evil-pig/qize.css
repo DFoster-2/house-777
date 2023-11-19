@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'sans-serif';
+  box-sizing: border-box;
+}
+
+body{
+  background: #fa0000;
+}
+
+.quiz{
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.quiz h1{
+  font-size: 25px;
+  color: #001e4d;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+.quizQestons{
+  padding: 20px 0;
+}
+.quizQestons h2{
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+  
+}
+
+.btn{
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+  background: #222;
+  color: #fff;
+  
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+#next{
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 50%;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+#home{
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 50%;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+.incorrect{
+  background: #ff9393;
+}
+
+.correct{
+  background: #9aeabc;
+}
+@media screen and (min-width: 1800px) {
+  .alert{
+    display: none;
+  }
+  .gap{
+    display: none;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .alert{
+    --bockground: #eeeeee;
+    --forground: #222222;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--bockground);
+  }
+}
+
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 48
+}
+.icon{
+  display: flex;
+  align-items: center;
+}
+.alertText{
+  margin-left: 1em;
+  font-size: 1.15em;
+  font-weight: 500;
+  font-family: 'Lexend', sans-serif;
+  background: var(--bockground);
+}
+
+.icon .material-symbols-outlined .alertText{
+  color: var(--forground);
+} 
+
+.warinht{
+  --bockground: #ecd103;
+  --forground: #000000;
+}
