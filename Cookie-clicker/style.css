@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: white;
+}
+#big {
+  font-size: 200%;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+#scorecounter, #scoreamountcounter {
+  font-size: 350%;
+}
+#seethru {
+  border: 0px;
+  background: white;
+}
+.bdbdbd {
+  border: 0px;
+  background: #bdbdbd
+}
