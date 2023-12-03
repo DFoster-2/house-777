@@ -2,5 +2,5 @@
 
 <p> This is an unbloked game website</p>
 
-<a href = "https://DFoster.github.io/house-777">For this code</a>
+<a href = "https://dfoster-2.github.io/house-777">For this code</a>
 for a better vesion <a href= "https://house-777.github.io/home">click here</a>
